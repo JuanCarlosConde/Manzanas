@@ -1,5 +1,17 @@
 project:
-  title: "Manzanas"
 
+  type: website
+  title: "Manzanas con el cambio climatico problemas con plagas"
+  
+website: 
+  title: "Manzanas con el cambio climatico problemas con plagas"
+format:
+  html:
+    theme: cosmo
+    
+    css: styles.css
+    
+    toc: true
+    
 editor: visual
 
