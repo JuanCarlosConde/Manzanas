@@ -1,14 +1,22 @@
 project:
   type: website
   title: "Manzanas con el cambio climatico problemas con plagas"
-    website:
+  
+lang: es
+
+ website:
+  title: "Cambio climatico en plagas agrícolas"
     navbar:
     background: primary
     search: true
-    left:
+    rigth:
       - text: "Home"
         href: index.qmd
       - talks.qmd
       - about.qmd 
+format:
+  html:
+  theme: default
+  css: styles.css
+  
 editor: visual
-
