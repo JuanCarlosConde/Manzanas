@@ -12,7 +12,6 @@ editor_options:
   chunk_output_type: console
 bibliography: moscas.bib
 csl: apa.csl
-text-align-last: justify;
 ---
 
 ::: callout-tip
@@ -27,10 +26,6 @@ Cambio Climatico
 
 ::: {style="text-align: justify; color:black;"}
 Las áreas destinadas al cultivo han llegado a un límite, su rápida expansión, consecuencia de una tala desmedida de bosques y selvas, ha contribuido al aumento de la temperatura alterando la fenología de plantas y animales. La velocidad con la que ocurre estos cambios no permite que muchas especies sean capaces de adaptarse y, en consecuencia, algunas de estas se están desplazando de sus zonas tradicionales a nuevos “nichos”, donde pueden vivir y reproducirse. Consecuencia de esto los insectos plaga, se desplazan a diferentes hábitats y reconocen en ocasiones, nuevos hospederos. Ejemplo de lo anterior es la Mosca Mexicana de la Fruta Anastrepha ludens, una especie polífaga cuyos hospederos naturales se restringen comúnmente a frutos de mango, diversos cítricos y otras especies de rutáceas e incluso ocasionalmente algunos frutos de plantas de la familia Myrtaceae. En últimos tiempos, se encontró que esta plaga ha iniciado la infestación de frutos de manzano, los cuales, se caracterizan por crecer a mayor altitud además de pertenecen a una familia botánica distinta a las de sus hospederos tradicionales. Debido a la importancia económica de los cultivos de manzanas en las zonas productoras de México y la falta de conocimiento de aquellos mecanismos que a nivel molecular subyacen la plasticidad y la adaptabilidad de esta especie a las condiciones de su entorno promoviendo incluso la interacción con nuevos hospederos, se realiza el siguiente estudio, el cual tiene por objeto analizar el transcriptoma de larvas y pupas de A. ludens desarrolladas en tres cultivares de manzana (Golden Delicious, Criolla y Rayada) y un hospedero natural (toronja cv. Marsh), a diferentes temperaturas. Como resultado se identifican 1,791 genes que en Larvas se expresan diferencialmente en respuesta al estímulo (cambio de temperatura). En las pupas, el número resulto ser similar (1,656 genes expresados diferencialmente). Interesantemente, son pocos los genes (un total de 262) que en ambos estadios de desarrollo (larvas y pupas) se expresan de manera diferencial en respuesta al estimulo y son menos aún, aquellos que coinciden cuando se comparan los genes que en respuesta a dicho tratamiento (el cambio de temperatura) se expresaron cuando las larvas y pupas se encontraban infestando un diferente cultivar (ya sea manzanas de los cv. Golden Delicious, Criolla y Rayada, o toronja cv. Marsh). Aun cuando más análisis son requeridos, de momento se concluye que los genes que se inducen participan de la señalización, la transducción de señales y la respuesta al estimulo ambiental mientras que los genes que se reprimen parecen estar relacionados con reducir la progresión del metabolismo, es decir, reducir el consumo de energía (ATP) para mantener la homeostasis celular y modular el estrés inducido por calor.
-:::
-
-::: def-Anastrepha ludens
-Mosca Mexicana de la fruta o mosca del citrico
 :::
 
 ::: callout-tip
@@ -68,4 +63,3 @@ Antecedentes Los tefrítidos son una familia diversa de insectos, con más de 4,
 ![](manzanascultivares.jpg)
 :::
 :::
-
