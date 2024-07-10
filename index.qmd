@@ -1,5 +1,5 @@
 ---
-title: "bueno"
+title: "Manzanas"
 listing:
   contents: posts
   sort: "date desc"

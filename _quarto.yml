@@ -1,8 +1,9 @@
 project:
   type: website
+  execute-dir: file
 
 website:
-  title: "bueno"
+  title: "Manzanas"
   navbar:
     right:
       - about.qmd
