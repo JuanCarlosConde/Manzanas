@@ -13,6 +13,7 @@ about:
     - icon: facebook
       text: facebook
       href: https://facebook.com
+      
 ---
 
-Este trabajo esta financiado por el proyecto ciencia de frontera, para obtener el grado en maestría en ciencias agropecuarias
+Esté sito estuvo hecho por Juan Carlos Conde

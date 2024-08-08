@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.4.555">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Juan Carlos Conde Alarcón">
 
-<title>Cambio climatico como factor de causante de nuevas plagas agrícolas - Manzanas</title>
+<title>Cambio climatico como factor de causante de nuevas plagas agrícolas - Anastrepha ludens</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,27 +21,45 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -55,78 +74,20 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Sin resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -137,18 +98,18 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Cambio climatico como factor de causante de nuevas plagas agrícolas</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Buscar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">Acerca de</span></a>
   </li>  
   <li class="nav-item compact">
@@ -171,77 +132,86 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Manzanas</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">Anastrepha ludens</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">A. ludens</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Autor/a</div>
+      <div class="quarto-title-meta-contents">
+               <p>Juan Carlos Conde Alarcón </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Fecha de publicación</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">5 de julio de 2024</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ludens">Ludens <span class="quarto-category-count">(1)</span></div></div></div>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<pre><code>                                          A. ludens</code></pre>
+<div style="text-align: justify; color:black;">
+<p>A. ludens es considerada como polífaga porque sus hospedantes están incluidos en varias familias de plantas; existen datos históricos para 23 de ellos, pero se encuentran registros dudosos en la familia Annonaceae, y no han sido confirmados desde su cita original <span class="citation" data-cites="seibert1945">(<a href="#ref-seibert1945" role="doc-biblioref">Seibert, 1945</a>)</span>; <span class="citation" data-cites="aluja1987">(<a href="#ref-aluja1987" role="doc-biblioref">Aluja et&nbsp;al., 1987</a>)</span>. En México, sus hospedantes naturales se restringen a frutos de mango (Mangifera indica), diversos frutos de Citrus spp. (Rutaceae), además, a dos especies de rutáceas nativas en el país, Sargentia greggii y Casimiroa edulis <span class="citation" data-cites="bush1962 plummer1935">(<a href="#ref-bush1962" role="doc-biblioref">Bush, 1962</a>; <a href="#ref-plummer1935" role="doc-biblioref">Plummer &amp; Stone, 1935</a>)</span>. Ocasionalmente infesta a frutos de durazno (Prunus persicae) y algunos frutos de plantas de la familia Myrtaceae.</p>
+<p><img src="ludens1.jpg" class="img-fluid"></p>
+<p>DISTRIBUCIÓN GEOGRÁFICA</p>
+<p>A. ludens es nativa del noreste de México <span class="citation" data-cites="plummer1944">(<a href="#ref-plummer1944" role="doc-biblioref">Plummer, 1944</a>)</span> y está distribuida en toda América central hasta Costa Rica; se ha dispersado a los cítricos de la costa Oeste de México, y a los de Texas en E. U. A., donde se realizan actividades continuas de detección, muestreo y establecimiento de campañas de erradicación (Weems et al., 2001). Se han hecho cinco detecciones de esta plaga en California desde 1980 hasta el 2000 y se han erradicado. También se ha capturado en Florida en 1934, en 1972 y en 2003, como intercepciones, no considerándose como presente <span class="citation" data-cites="greenland1990">(<a href="#ref-greenland1990" role="doc-biblioref">Greenland, 1990</a>)</span>. Su distribución natural incluye al Valle del Río Grande en Texas, donde las poblaciones de A. ludens alcanzan el estatus de plaga si no se aplican medidas de control, ocasionalmente se dispersa hacia Arizona <span class="citation" data-cites="weems2012">(<a href="#ref-weems2012" role="doc-biblioref">Weems et&nbsp;al., 2012</a>)</span>. Está distribuida en los siguientes países <span class="citation" data-cites="cabi2006">(<a href="#ref-cabi2006" role="doc-biblioref">CABI &amp; EPPO, 2006</a>)</span> Asia: Ausente África: Ausente América: México, E. U. A. (Texas), Belice, Costa Rica, El Salvador, Guatemala, Honduras, Nicaragua. Registros de presencia en Argentina y Colombia fueron confirmados como ausente o inválido, respectivament</p>
+<p><img src="distribucion.png" class="img-fluid"></p>
+</div>
 
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Ludens" data-listing-date-sort="1720159200000" data-listing-file-modified-sort="1722968827043" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1691">
-<div class="thumbnail">
-<p><a href="./posts/manzanas/index.html" class="no-external"></a></p><a href="./posts/manzanas/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/manzanas/golden.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/manzanas/index.html" class="no-external"></a></p>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referencias</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-aluja1987" class="csl-entry" role="listitem">
+Aluja, M., Guillén, J., Rosa, G. de la, Cabrera, M., Celedonio, H., Liedo, P., Hendrichs, J., Guillen, J., &amp; Rosa, G. de la. (1987). Natural Host Plant Survey of the Economically Important Fruit Flies (Diptera: Tephritidae) of Chiapas, Mexico. <em>The Florida Entomologist</em>, <em>70</em>(3), 329. <a href="https://doi.org/10.2307/3495066">https://doi.org/10.2307/3495066</a>
 </div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/manzanas/index.html" class="no-external">Manzanas con el cambio climatico problemas con plagas</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/manzanas/index.html" class="no-external"></a>
+<div id="ref-bush1962" class="csl-entry" role="listitem">
+Bush, G. L. (1962). The Cytotaxonomy of the Larvae of Some Mexican Fruit Flies in the Genus Anastrepha (Tephritidae, Diptera). <em>Psyche: A Journal of Entomology</em>, <em>69</em>(3), 87-101. <a href="https://doi.org/10.1155/1962/20495">https://doi.org/10.1155/1962/20495</a>
 </div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Ludens'); return false;">
-Ludens
+<div id="ref-cabi2006" class="csl-entry" role="listitem">
+CABI, &amp; EPPO. (2006). <span><em>Anastrepha ludens</em></span> . [Distribution map]. <em>Distribution Maps of Plant Pests</em>. <a href="https://doi.org/10.1079/dmpp/20066600089">https://doi.org/10.1079/dmpp/20066600089</a>
 </div>
+<div id="ref-greenland1990" class="csl-entry" role="listitem">
+Greenland, D. J. (1990). Better crop protection information. <em>Tropical Pest Management</em>, <em>36</em>(3), 220-222. <a href="https://doi.org/10.1080/09670879009371476">https://doi.org/10.1080/09670879009371476</a>
 </div>
-<div class="listing-description">
-<a href="./posts/manzanas/index.html" class="no-external">Existen cuatro especies de moscas de la fruta de importancia económica: la mosca de los cítricos, la mosca del mango, la mosca de la guayaba y la mosca de los zapotes, son…</a>
+<div id="ref-plummer1944" class="csl-entry" role="listitem">
+Plummer, C. C. (1944). DDT and the Mexican Fruitfly. <em>Journal of Economic Entomology</em>, <em>37</em>(1), 158-158. <a href="https://doi.org/10.1093/jee/37.1.158a">https://doi.org/10.1093/jee/37.1.158a</a>
 </div>
+<div id="ref-plummer1935" class="csl-entry" role="listitem">
+Plummer, C. C., &amp; Stone, W. E. (1935). <em>The disposal by burial of fruit infested with larvae of the Mexican fruit fly /</em>. <a href="https://doi.org/10.5962/bhl.title.64019">https://doi.org/10.5962/bhl.title.64019</a>
 </div>
-<div class="metadata">
-<a href="./posts/manzanas/index.html" class="no-external">
-<div class="listing-date">
-Jul 5, 2024
+<div id="ref-seibert1945" class="csl-entry" role="listitem">
+Seibert, H. C. (1945). <span><em>A Review of Studies on the Mexican Fruitfly and Related Mexican Species. United States Department of Agriculture Miscellaneous Publication No. 531.</em></span>A. C. Baker , W. E. Stone , C. C. Plummer , M. McPhail. <em>The Quarterly Review of Biology</em>, <em>20</em>(3), 276-276. <a href="https://doi.org/10.1086/394916">https://doi.org/10.1086/394916</a>
 </div>
-<div class="listing-author">
-Juan Carlos Conde Alarcón
+<div id="ref-weems2012" class="csl-entry" role="listitem">
+Weems, H. V., Heppner, J. B., Steck, G. J., Fasulo, T. R., &amp; Nation, J. L. (2012). Mexican Fruit Fly, Anastrepha ludens (Loew) (Insecta: Diptera: Tephritidae). <em>EDIS</em>, <em>2012</em>(2). <a href="https://doi.org/10.32473/edis-in358-2012">https://doi.org/10.32473/edis-in358-2012</a>
 </div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -296,12 +266,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
+    button.setAttribute("title", "Copiado");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
+      button.setAttribute("data-bs-title", "Copiado");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
