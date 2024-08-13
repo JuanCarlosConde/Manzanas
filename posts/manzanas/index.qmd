@@ -1,17 +1,17 @@
 ---
-title: "Manzanas con el cambio climatico problemas con plagas"
+title: "Cambio clímatico"
 author: "Juan Carlos Conde Alarcón"
-date: "05-Julio-2024"
+date: "05-Agosto-2024"
 draft: false
+categories: [Cambio cliamtico]
 toc: true
 format:
   html:
     code-fold: true
 editor_options: 
   chunk_output_type: console
-bibliography: moscas.bib
-csl: apa.csl
-categories: [Ludens]
+bibliography: ../moscas.bib
+csl: ../apa.csl
 ---
 
 ::: {#rem-Especies .callout-tip collapse="true"}

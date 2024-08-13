@@ -1,0 +1,35 @@
+---
+title: "Moscas y el cambio climatico"
+listening:
+  contensts: post
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+categories: [Presentación]
+format: revealjs
+---
+
+## Análisis transcriptómico de larvas y pupas de Anastrepha ludens desarrolladas en los cultivares de manzana ‘Golden Delicius’, ‘Rayada’ y ‘Criolla’ a diferentes temperaturas
+
+Presenta: Biol. Juan Carlos Conde Alarcón
+
+Director de Tesis: Dr. Mauricio Luna Rodríguez
+
+Xalapa, Ver., 06 de Agosto de 2024
+
+“Lis de Veracruz: Arte, Ciencia, Luz”
+
+## Introducción
+
+- Sobrepoblación
+
+- Seguridad Alimentaria
+
+- Deforestación de grandes areas
+
+- Cambio climatíco
+

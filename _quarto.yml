@@ -1,6 +1,8 @@
 project:
   type: website
   execute-dir: file
+  
+lang: es
 
 website:
   title: "Cambio climatico como factor de causante de nuevas plagas agrícolas"
