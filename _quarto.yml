@@ -5,7 +5,7 @@ project:
 lang: es
 
 website:
-  title: "Cambio climatico y las plagas agrícolas"
+  title: "Cambio climatico, plagas y manzanas"
   navbar:
     right:
       - about.qmd
