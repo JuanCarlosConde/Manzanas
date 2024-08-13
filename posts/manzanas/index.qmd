@@ -15,9 +15,11 @@ csl: ../apa.csl
 ---
 
 ::: {#rem-Especies .callout-tip collapse="true"}
+::: {style="text-align: justify; color:black;"}
 Existen cuatro especies de moscas de la fruta de importancia económica: la mosca de los cítricos, la mosca del mango, la mosca de la guayaba y la mosca de los zapotes, son nativas de américa y se distribuyen en las áreas tropicales y subtropicales. Causan daños al alimentarse de frutos provocando pérdidas económicas al país si no se controlan.
 
-Aun que en mexico exiten planes para su control y manejo
+Aun que en mexico exiten planes para su control y manejo[@alternat2001] La irradiación no mata al insecto inmediatamente, pero lo vuelve infértil o evita la emergencia del adulto. El criterio de mortalidad no puede ser utilizado al aplicar la irradiación, porque las altas dosis requeridas afectarían a la calidad de la fruta. El grupo consultivo internacional para irradiación en alimentos CGFI (International consultive group for food irradiation) acordó el uso de 150 Gray en fruta infestada por insectos de la familia Tephritidae. México ha realizado la investigación necesaria para determinar las dosis mínimas en mangos infestados por especies de moscas de la fruta importantes económicamente en el país, con base al valor probit- 9; el proceso de irradiación en México es económicamente factible, además de efectivo y eficiente porque dosis bajas evitan el desarrollo del insecto y pueden ser aplicadas a la mayoría de las frutas para ser consumidas inmediatamente después del tratamiento; sin dejar residuos tóxicos, ni afectar al medio ambiente, ni a la calidad del producto y aceptación por el consumidor . La dosis mínima para inhibir la emergencia de A. ludens es de 100 Gy, mientras que APHIS-USDA acepta hasta 150 Gy (Bustos et al., 2004). Las dosis que pueden ser aplicadas a mango, toronja y naranjas es de 1000, 300 y 300 Gy, respectivamente (Bustos, 2001). La Irradiación se aplica en México para exportar guayabas a Estados Unidos desde 2008, y a partir de 2009 ha incluido mangos. Se tienen planes de aplicar la misma tecnología a otras frutas y verduras para exportación (Eggert, 2009), además, se tiene la expectativa de exportar toronja, naranja, mandarina, chile manzano y carambola irradiados. También, a corto plazo se programa incrementar el uso de irradiación para la exportación de otros productos tales como: zapote, chicozapote, guanábana, mamey, tejocote, ciruela amarilla, pitahaya, lima dulce, granada, higo, rambután, entre otros (Puente, 2009).
+:::
 :::
 
 ::: {.callout-warning collapse="true"}

@@ -5,7 +5,7 @@ project:
 lang: es
 
 website:
-  title: "Cambio climatico como factor de causante de nuevas plagas agrícolas"
+  title: "Cambio climatico y las plagas agrícolas"
   navbar:
     right:
       - about.qmd
