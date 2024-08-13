@@ -1,5 +1,5 @@
 ---
-title: "Manzanas"
+title: "Manzanas y plagas"
 listing:
   contents: posts
   sort: "date desc"
