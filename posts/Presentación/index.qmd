@@ -119,11 +119,11 @@ Especies de importancia comercial
 ## Hospederos
 
 ::: {#fig-Hospederos layout-ncol="4"}
-![Anacardiaceae-Mangifera indica](mango.jpg){width="200"} 
+![Anacardiaceae-Mangifera indica](mango.jpg){width="200"}
 
-![Rutaceae-Casimiroa edulis](zapoteblanco.jpg){width="200"} 
+![Rutaceae-Casimiroa edulis](zapoteblanco.jpg){width="200"}
 
-![Rutaceae-Citrus paradisi](toronja.jpg){width="200"} 
+![Rutaceae-Citrus paradisi](toronja.jpg){width="200"}
 
 ![Rosaceae-Pronus persica](pera.jpg){width="200"}
 
