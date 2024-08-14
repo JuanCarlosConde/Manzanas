@@ -25,13 +25,50 @@ Xalapa, Ver., 06 de Agosto de 2024
 
 ## Introducción
 
-- Sobrepoblación
+- Sobrepoblación            
 
 - Seguridad Alimentaria
 
-- Deforestación de grandes areas
+- Deforestación de grandes areas        
 
 - Cambio climatíco
-![](cambiocliamtico.jpg)
-## Itroducción
 
+![](cambioclimatico.jpg)
+
+## Medidas para mitigar el calentamiento global
+
+ Aumento de temperatura en los ultimos 15 años
+ 
+ Medidas a nivel global para disminuir las emisiones de gases de efecto invernadero
+ 
+ Cambios en la fenología de las plantas
+ 
+::: {#fig-calentamiento layout-ncol=2}
+
+![Emisiones de CO2](CO2.jpg){#fig-CO2 width=200}
+
+![Especies invasoras](especiesinvasoras.jpg){#fig-Calentamiento width=200}
+
+Efectos del calentamiento global
+:::
+
+## Cambios en la Fenología de plantas y animales
+
+- Especies Invasoras
+
+- Especies Nativas
+
+- Interacciones Ecologícas
+
+::: {#fig-Fenoligía layout-ncol=3}
+
+![Especies Invasoras](ludensM.jpg){#fig-A.ludens width=200}
+
+
+
+![Especies Nativas](Ragopom.jpg){#fig-Ragholetis width=200}
+
+![Interacciones Ecologícas](LudensRa.jpg){#fig-Ludens-Ragholetis width=200}
+
+Cambios en la fonología
+:::
