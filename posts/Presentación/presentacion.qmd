@@ -75,4 +75,10 @@ Cambios en la fonología
 
 - Con una producción de 10 millones de toneladas, representado el 16% de la producción agrícola
 
+::: {#fig-Fenoligía layout-ncol="2"}
+![Manzana Golden](golden.jpg){#fig-Golden width="200"}
 
+![Manzana Rayada](rayada.jpg){#fig-Rayada width="200"}
+
+Cultivares de manzana
+:::
