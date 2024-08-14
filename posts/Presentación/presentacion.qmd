@@ -75,10 +75,16 @@ Cambios en la fonología
 
 - Con una producción de 10 millones de toneladas, representado el 16% de la producción agrícola
 
-::: {#fig-Fenoligía layout-ncol="2"}
-![Manzana Golden](golden.jpg){#fig-Golden width="200"}
+- 58,528 ha de cultivo de manzana
 
-![Manzana Rayada](rayada.jpg){#fig-Rayada width="200"}
+- 716,930 toneladas anuales
+
+- Chihuahua, Durango y Puebla los principales productores
+
+::: {#fig-Fenoligía layout-ncol="2"}
+![Manzana Golden](golden.jpg){#fig-Golden width="100"}
+
+![Manzana Rayada](rayada.jpg){#fig-Rayada width="100"}
 
 Cultivares de manzana
 :::
