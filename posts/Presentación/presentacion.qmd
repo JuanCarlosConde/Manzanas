@@ -15,10 +15,10 @@ format: revealjs
 
 ## Análisis transcriptómico de larvas y pupas de Anastrepha ludens desarrolladas en los cultivares de manzana ‘Golden Delicius’, ‘Rayada’ y ‘Criolla’ a diferentes temperaturas
 
-- Presenta: Biol. Juan Carlos Conde Alarcón
-- Director de Tesis: Dr. Mauricio Luna Rodríguez
+-   Presenta: Biol. Juan Carlos Conde Alarcón
+-   Director de Tesis: Dr. Mauricio Luna Rodríguez
 
-![](UV1.jpg){width=75} ![](FCA.jpg){width=75}
+![](UV1.jpg){width="75"} ![](FCA.jpg){width="75"}
 
 ## Introducción
 
@@ -68,17 +68,17 @@ Cambios en la fonología
 
 ## Cultivo de manzana
 
-- México posee 1,300,000 ha dedicadas al cultivo de 32 especies de frutales
+-   México posee 1,300,000 ha dedicadas al cultivo de 32 especies de frutales
 
-- Con una producción de 10 millones de toneladas, representado el 16% de la producción agrícola
+-   Con una producción de 10 millones de toneladas, representado el 16% de la producción agrícola
 
-- 58,528 ha de cultivo de manzana
+-   58,528 ha de cultivo de manzana
 
-- 716,930 toneladas anuales
+-   716,930 toneladas anuales
 
-- Chihuahua, Durango y Puebla los principales productores
+-   Chihuahua, Durango y Puebla los principales productores
 
-::: {#fig-Fenoligía layout-ncol="2"}
+::: {layout-ncol="2"}
 ![Manzana Golden](golden.jpg){#fig-Golden width="100"}
 
 ![Manzana Rayada](rayada.jpg){#fig-Rayada width="100"}
@@ -86,5 +86,46 @@ Cambios en la fonología
 Cultivares de manzana
 :::
 
-## Tefrítidos 
+## Tefrítidos
 
+-   4,000 especies descritas
+-   250 especies del genero anastrepha
+-   Existen en México especies de importancia comercial
+
+::: {#fig-tefrítidos layout-ncol="3"}
+![Tefrítidos](tefritido.png){width="200"}
+
+![anastrepha](anastrepha.jpg){#fig-anastrepha width="200"}
+
+![Importancia comercial](moscasnativas.jpg){#fig-importancia width="600"}
+
+Especies de importancia comercial
+:::
+
+## A. ludens
+
+-   Hábitat en zonas tropicales
+
+-   23 Hospederos
+
+-   Causante entre el 10 -25% daños en cultivos de frutas
+
+![](LudensM.jpg){width="600"}
+
+## Ciclo de Vida
+
+![](ciclomosca.jpg)
+
+## Hospederos
+
+::: {#fig-Hospederos layout-ncol="4"}
+![Anacardiaceae-Mangifera indica](mango.jpg){width="200"} 
+
+![Rutaceae-Casimiroa edulis](zapoteblanco.jpg){width="200"} 
+
+![Rutaceae-Citrus paradisi](toronja.jpg){width="200"} 
+
+![Rosaceae-Pronus persica](pera.jpg){width="200"}
+
+Hspederon de A. ludens
+:::
