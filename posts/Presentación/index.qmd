@@ -141,7 +141,7 @@ Hspederon de A. ludens
 
 ![Trampa](trampa.jpg){#fig-trampa .lightbox width="100"}
 
-![Manzana infestada](infes.jpg){#fig-infestación .lightbox width="200"}
+![Manzana infestada](infes.jpg){.lightbox width="200"}
 
 Infestación y trampeo en campo
 :::
