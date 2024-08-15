@@ -60,6 +60,9 @@ div.csl-indent {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -177,10 +180,10 @@ div.csl-indent {
 <pre><code>                                          A. ludens</code></pre>
 <div style="text-align: justify; color:black;">
 <p>A. ludens es considerada como polífaga porque sus hospedantes están incluidos en varias familias de plantas; existen datos históricos para 23 de ellos, pero se encuentran registros dudosos en la familia Annonaceae, y no han sido confirmados desde su cita original <span class="citation" data-cites="seibert1945">(<a href="#ref-seibert1945" role="doc-biblioref">Seibert, 1945</a>)</span>; <span class="citation" data-cites="aluja1987">(<a href="#ref-aluja1987" role="doc-biblioref">Aluja et&nbsp;al., 1987</a>)</span>. En México, sus hospedantes naturales se restringen a frutos de mango (Mangifera indica), diversos frutos de Citrus spp. (Rutaceae), además, a dos especies de rutáceas nativas en el país, Sargentia greggii y Casimiroa edulis <span class="citation" data-cites="bush1962 plummer1935">(<a href="#ref-bush1962" role="doc-biblioref">Bush, 1962</a>; <a href="#ref-plummer1935" role="doc-biblioref">Plummer &amp; Stone, 1935</a>)</span>. Ocasionalmente infesta a frutos de durazno (Prunus persicae) y algunos frutos de plantas de la familia Myrtaceae.</p>
-<p><img src="ludens1.jpg" class="img-fluid"></p>
+<p><a href="ludens1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="ludens1.jpg" class="img-fluid" width="200"></a></p>
 <p>DISTRIBUCIÓN GEOGRÁFICA</p>
 <p>A. ludens es nativa del noreste de México <span class="citation" data-cites="plummer1944">(<a href="#ref-plummer1944" role="doc-biblioref">Plummer, 1944</a>)</span> y está distribuida en toda América central hasta Costa Rica; se ha dispersado a los cítricos de la costa Oeste de México, y a los de Texas en E. U. A., donde se realizan actividades continuas de detección, muestreo y establecimiento de campañas de erradicación (Weems et al., 2001). Se han hecho cinco detecciones de esta plaga en California desde 1980 hasta el 2000 y se han erradicado. También se ha capturado en Florida en 1934, en 1972 y en 2003, como intercepciones, no considerándose como presente <span class="citation" data-cites="greenland1990">(<a href="#ref-greenland1990" role="doc-biblioref">Greenland, 1990</a>)</span>. Su distribución natural incluye al Valle del Río Grande en Texas, donde las poblaciones de A. ludens alcanzan el estatus de plaga si no se aplican medidas de control, ocasionalmente se dispersa hacia Arizona <span class="citation" data-cites="weems2012">(<a href="#ref-weems2012" role="doc-biblioref">Weems et&nbsp;al., 2012</a>)</span>. Está distribuida en los siguientes países <span class="citation" data-cites="cabi2006">(<a href="#ref-cabi2006" role="doc-biblioref">CABI &amp; EPPO, 2006</a>)</span> Asia: Ausente África: Ausente América: México, E. U. A. (Texas), Belice, Costa Rica, El Salvador, Guatemala, Honduras, Nicaragua. Registros de presencia en Argentina y Colombia fueron confirmados como ausente o inválido, respectivament</p>
-<p><img src="distribucion.png" class="img-fluid"></p>
+<p><a href="distribucion.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="distribucion.png" class="img-fluid" width="200"></a></p>
 </div>
 
 
@@ -622,6 +625,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","selector":".lightbox","loop":false,"descPosition":"bottom"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 
