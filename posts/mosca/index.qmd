@@ -1,7 +1,7 @@
 ---
 title: "Anastrepha ludens"
 author: "Juan Carlos Conde Alarcón"
-date: "06-Agosto-2024"
+date: "08/18/2024"
 draft: false
 toc: true
 categories: [A. ludens]

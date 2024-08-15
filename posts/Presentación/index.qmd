@@ -11,14 +11,19 @@ page-layout: full
 title-block-banner: true
 categories: [Presentación]
 format: revealjs
+footer: "[Principal](../../index.qmd)"
+title-slide-attributes: 
+  data-background-image: "LudensM.jpg"
+  data-background-size: "100%"
+  data-background-opacity: "30%"
 ---
 
-## Análisis transcriptómico de larvas y pupas de Anastrepha ludens desarrolladas en los cultivares de manzana ‘Golden Delicius’, ‘Rayada’ y ‘Criolla’ a diferentes temperaturas
+## Análisis transcriptómico de larvas y pupas de Anastrepha ludens desarrolladas en manzana a diferentes temperaturas
 
 -   Presenta: Biol. Juan Carlos Conde Alarcón
 -   Director de Tesis: Dr. Mauricio Luna Rodríguez
 
-![](UV1.jpg){width="75"} ![](FCA.jpg){width="75"}
+![](UV1.jpg){width="100"} ![](FCA.jpg){width="100"}
 
 ## Introducción
 
@@ -30,7 +35,7 @@ format: revealjs
 
 -   Cambio climatíco
 
-![](cambioclimatico.jpg){width="200"}
+![](cambioclimatico.jpg){width="200".lightbox}
 
 ## Medidas para mitigar el calentamiento global
 
@@ -41,9 +46,9 @@ Medidas a nivel global para disminuir las emisiones de gases de efecto invernade
 Cambios en la fenología de las plantas
 
 ::: {#fig-calentamiento layout-ncol="2"}
-![Emisiones de CO2](CO2.jpg){#fig-CO2 width="200"}
+![Emisiones de CO2](CO2.jpg){#fig-CO2 width="200" .lightbox}
 
-![Especies invasoras](especiesinvasoras.jpg){#fig-Calentamiento width="200"}
+![Especies invasoras](especiesinvasoras.jpg){#fig-Calentamiento width="200" .lightbox}
 
 Efectos del calentamiento global
 :::
@@ -57,11 +62,11 @@ Efectos del calentamiento global
 -   Interacciones Ecologícas
 
 ::: {#fig-Fenoligía layout-ncol="3"}
-![Especies Invasoras](ludensM.jpg){#fig-A.ludens width="200"}
+![Especies Invasoras](ludensM.jpg){#fig-A.ludens width="200" .lightbox}
 
-![Especies Nativas](Ragopom.jpg){#fig-Ragholetis width="200"}
+![Especies Nativas](Ragopom.jpg){#fig-Ragholetis width="200" .lightbox}
 
-![Interacciones Ecologícas](LudensRa.jpg){#fig-Ludens-Ragholetis width="200"}
+![Interacciones Ecologícas](LudensRa.jpg){#fig-Ludens-Ragholetis width="200" .lightbox}
 
 Cambios en la fonología
 :::
@@ -75,9 +80,9 @@ Cambios en la fonología
 -   Chihuahua, Durango y Puebla los principales productores
 
 ::: {layout-ncol="2"}
-![Manzana Golden](golden.jpg){#fig-Golden width="100"}
+![Manzana Golden](golden.jpg){#fig-Golden width="100" .lightbox}
 
-![Manzana Rayada](rayada.jpg){#fig-Rayada width="100"}
+![Manzana Rayada](rayada.jpg){#fig-Rayada width="100" .lightbox}
 
 Cultivares de manzana
 :::
@@ -89,11 +94,11 @@ Cultivares de manzana
 -   Existen en México especies de importancia comercial
 
 ::: {#fig-tefrítidos layout-ncol="3"}
-![Tefrítidos](tefritido.png){#fig-tefrítido width="200"}
+![Tefrítidos](tefritido.png){#fig-tefrítido width="200" .lightbox}
 
-![anastrepha](anastrepha.jpg){#fig-anastrepha width="200"}
+![anastrepha](anastrepha.jpg){#fig-anastrepha width="200" .lightbox}
 
-![Importancia comercial](moscasnativas.jpg){#fig-importancia width="600"}
+![Importancia comercial](moscasnativas.jpg){#fig-importancia width="600".lightbox}
 
 Especies de importancia comercial
 :::
@@ -106,22 +111,22 @@ Especies de importancia comercial
 
 -   Causante entre el 10 -25% daños en cultivos de frutas
 
-![](LudensM.jpg){width="600"}
+![](LudensM.jpg){width="600" .lightbox}
 
 ## Ciclo de Vida
 
-![](ciclomosca.jpg)
+![](ciclomosca.jpg){.lightbox}
 
 ## Hospederos
 
 ::: {#fig-Hospederos layout-ncol="4"}
-![Anacardiaceae-Mangifera indica](mango.jpg){#fig-Mangifera width="200"}
+![Anacardiaceae-Mangifera indica](mango.jpg){#fig-Mangifera width="200" .lightbox}
 
-![Rutaceae-Casimiroa edulis](zapoteblanco.jpg){#fig-Casimiroa width="200"}
+![Rutaceae-Casimiroa edulis](zapoteblanco.jpg){#fig-Casimiroa width="200" .lightbox}
 
-![Rutaceae-Citrus paradisi](toronja.jpg){#fig-Citrus width="200"}
+![Rutaceae-Citrus paradisi](toronja.jpg){#fig-Citrus width="200" .lightbox}
 
-![Rosaceae-Pronus persica](pera.jpg){#fig-Pronus width="200"}
+![Rosaceae-Pronus persica](pera.jpg){#fig-Pronus width="200" .lightbox}
 
 Hspederon de A. ludens
 :::
@@ -132,11 +137,15 @@ Hspederon de A. ludens
 -   Conocer los mecanismos moleculares que le permiten la adaptabilidad
 
 ::: {#fig-infestación layout-ncol="3"}
-![Infestación manzana](infgold2.jpg){#fig-Manzana width="100"}
+![Infestación manzana](infgold2.jpg){#fig-Manzana width="100" .lightbox}
 
-![Trampa](trampa.jpg){#fig-trampa width="100"} 
+![Trampa](trampa.jpg){#fig-trampa width="100" .lightbox} 
 
-![Manzana infestada](infes.jpg){#fig-infestación width="200"}
+![Manzana infestada](infes.jpg){#fig-infestación width="200" .lightbox}
 
 Infestación y trampeo en campo
 :::
+
+## Gracias
+
+![](LudensM.jpg)

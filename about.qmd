@@ -13,7 +13,6 @@ about:
     - icon: facebook
       text: facebook
       href: https://facebook.com
-      
 ---
 
-Esté sito estuvo hecho por Juan Carlos Conde
+Este trabajo fue elaborado por Biol. Juan Carlos Conde y forma parte de presentar de manera breve un tema de investigación para obtener el grado de maestría en ciencias agropecuarías y como parte de entrega de la matería "Ciencia abierta una nueva manera de escribir" impartida por Dr. Miguel Equihua.

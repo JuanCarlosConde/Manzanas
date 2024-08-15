@@ -1,7 +1,7 @@
 ---
 title: "Manzanas"
 author: "Juan Carlos Conde Alarcón"
-date: "08-Agosto-2024"
+date: "08/18/2024"
 categories: [Manzanas]
 draft: false
 toc: true
