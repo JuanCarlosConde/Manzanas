@@ -60,6 +60,9 @@ div.csl-indent {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -176,7 +179,7 @@ div.csl-indent {
 
 <div style="text-align: justify; color:black;">
 <p>La manzana llegó al continente americano junto a los colonizadores europeos y actualmente en nuestro país contamos con más de 55 mil hectáreas dedicadas a su cultivo, tan solo en 2021, se produjeron más de 631 mil toneladas de este fruto. Se cultiva en 23 estados de la República Mexicana y los principales productores son Chihuahua, Coahuila y Puebla, las cosechas de manzana se realizan, casi en su totalidad, entre agosto y octubre; esto se debe a que Chihuahua, principal estado productor, determina la estacionalidad de la producción de esta fruta en México<span class="citation" data-cites="lamanza2012">(<a href="#ref-lamanza2012" role="doc-biblioref"><em>La manzana de oro</em>, 2012</a>)</span>.</p>
-<p><img src="Mapamanzana.jpg" class="img-fluid"></p>
+<p><a href="Mapamanzana.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="Mapamanzana.jpg" class="img-fluid" width="200"></a></p>
 <pre><code>Variedades de manzana cultivadas en nuestro país:
 
     Criolla +37 mil toneladas
@@ -199,7 +202,7 @@ div.csl-indent {
 <p>Al consumir manzana aportamos al cuerpo flavonoides, polifenoles, antioxidantes, vitaminas del grupo B (B1, B2 y B6), vitamina C, fósforo, potasio y calcio. La manzana, también contiene ácido málico y tartárico, lo que facilita la digestión de aquellos alimentos que posean un alto contenido en grasas. En promedio, los mexicanos consumimos 7.6 kilos de manzana por año y lo hacemos generalmente cruda, pero también cocinada en numerosos postres y transformada industrialmente como jugos, sidra, néctares, yogurt, deshidratada, vinagre y licores. Así que en este domingo disfruta de una lanza, variedades tienes muchas para escoger en el mercado nacional y recuerda que “Una manzana al día mantiene al doctor en la lejanía”.</p>
 <p>Cultivo</p>
 <p>La manzana prefiere los suelos franco-arenosos con profundidad mínima de 50cm y pH de 5.5 a 6, la temperatura óptima para su desarrollo es de -10 a 10° C durante el invierno y de 15 a 30° C durante el verano, prefiere los ambientes húmedos a los secos y no soporta las heladas, especialmente si son muchas. El frío no le afecta pero los fuertes vientos sí que pueden impedir que se desarrolle correctamente, es muy importante que el riego sea abundante, especialmente en la época en la que las flores están creciendo ya que así lo harán mucho mejor, mientras que si el riego es escaso pueden caerse.</p>
-<p><img src="cultivoman.jpg" class="img-fluid"></p>
+<p><a href="cultivoman.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="cultivoman.jpg" class="img-fluid" width="200"></a></p>
 </div>
 
 
@@ -620,6 +623,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 

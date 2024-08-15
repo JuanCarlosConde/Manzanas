@@ -21,11 +21,11 @@ csl: ../apa.csl
 ::: {style="text-align: justify; color:black;"}
 A. ludens es considerada como polífaga porque sus hospedantes están incluidos en varias familias de plantas; existen datos históricos para 23 de ellos, pero se encuentran registros dudosos en la familia Annonaceae, y no han sido confirmados desde su cita original [@seibert1945]; [@aluja1987]. En México, sus hospedantes naturales se restringen a frutos de mango (Mangifera indica), diversos frutos de Citrus spp. (Rutaceae), además, a dos especies de rutáceas nativas en el país, Sargentia greggii y Casimiroa edulis [@bush1962; @plummer1935]. Ocasionalmente infesta a frutos de durazno (Prunus persicae) y algunos frutos de plantas de la familia Myrtaceae.
 
-![](ludens1.jpg)
+![](ludens1.jpg){.lightbox width="200"}
 
 DISTRIBUCIÓN GEOGRÁFICA
 
 A. ludens es nativa del noreste de México [@plummer1944] y está distribuida en toda América central hasta Costa Rica; se ha dispersado a los cítricos de la costa Oeste de México, y a los de Texas en E. U. A., donde se realizan actividades continuas de detección, muestreo y establecimiento de campañas de erradicación (Weems et al., 2001). Se han hecho cinco detecciones de esta plaga en California desde 1980 hasta el 2000 y se han erradicado. También se ha capturado en Florida en 1934, en 1972 y en 2003, como intercepciones, no considerándose como presente [@greenland1990]. Su distribución natural incluye al Valle del Río Grande en Texas, donde las poblaciones de A. ludens alcanzan el estatus de plaga si no se aplican medidas de control, ocasionalmente se dispersa hacia Arizona [@weems2012]. Está distribuida en los siguientes países [@cabi2006] Asia: Ausente África: Ausente América: México, E. U. A. (Texas), Belice, Costa Rica, El Salvador, Guatemala, Honduras, Nicaragua. Registros de presencia en Argentina y Colombia fueron confirmados como ausente o inválido, respectivament
 
-![](distribucion.png)
+![](distribucion.png){.lightbox width="200"}
 :::

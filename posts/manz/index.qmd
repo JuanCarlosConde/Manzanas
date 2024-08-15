@@ -17,7 +17,7 @@ csl: ../apa.csl
 ::: {style="text-align: justify; color:black;"}
 La manzana llegó al continente americano junto a los colonizadores europeos y actualmente en nuestro país contamos con más de 55 mil hectáreas dedicadas a su cultivo, tan solo en 2021, se produjeron más de 631 mil toneladas de este fruto. Se cultiva en 23 estados de la República Mexicana y los principales productores son Chihuahua, Coahuila y Puebla, las cosechas de manzana se realizan, casi en su totalidad, entre agosto y octubre; esto se debe a que Chihuahua, principal estado productor, determina la estacionalidad de la producción de esta fruta en México[@lamanza2012].
 
-![](Mapamanzana.jpg)
+![](Mapamanzana.jpg){.lightbox width="200"}
 
 ```         
 Variedades de manzana cultivadas en nuestro país:
@@ -47,5 +47,5 @@ Cultivo
 
 La manzana prefiere los suelos franco-arenosos con profundidad mínima de 50cm y pH de 5.5 a 6, la temperatura óptima para su desarrollo es de -10 a 10° C durante el invierno y de 15 a 30° C durante el verano, prefiere los ambientes húmedos a los secos y no soporta las heladas, especialmente si son muchas. El frío no le afecta pero los fuertes vientos sí que pueden impedir que se desarrolle correctamente, es muy importante que el riego sea abundante, especialmente en la época en la que las flores están creciendo ya que así lo harán mucho mejor, mientras que si el riego es escaso pueden caerse.
 
-![](cultivoman.jpg)
+![](cultivoman.jpg){.lightbox width="200"}
 :::
