@@ -17,14 +17,17 @@ editor_options:
 Uno de los problemas más frecuentes de los estudiantes al finalizar la carrera universitaria es la redacción y elaboración de una tesis que tenga un aporte científico, construido a partir de un argumento complejo o razonamiento, y que lleguen a conclusiones prácticas como resultado de la investigación. Uno de los grandes pensadores Aristóteles decía que “Todos los seres humanos aspiran por naturaleza al conocimiento”. 
 Actualmente, la educación enfrenta desafíos con una sociedad en constatantes cambios y transformaciones, por esta razón la academia tiene que formar sujetos capaces de percibir y ofrecer posibles soluciones a fenómenos de la realidad en la cual se desenvuelven. Hoy en día la gestion del conocimiento se debe de abordar con tecnicas nuevas y novedosas dando enfoques musltidiciplinarios, en la que los estudiantes tengan esas herramientas y que sean utiles para su formacion. Cambiar los metodos de enseñanza puede a contribuir al mejoramiento de la ciencia, ya que esto se puede ver que el problema no se haya en los recursos, si no cómo los docentes abordan los contenidos académicos, por lo que se requiere cambiar los métodos de enseñanza, dinamizar las clases para que los alumnos puedan ver en el aprendizaje de las ciencias como una herramienta para conocer el mundo e identificar problemas desde su cotidianidad. 
 Otro de los problemas que afectan a la ciencia es delincuencia, el desempleo, la inflación, la deserción escolar. No siempre la solución de estos problemas no está en manos de los científicos, pero el investigador puede aportar datos e información a las autoridades competentes para que tomen las medidas necesarias dirigidas a solventar tales dificultades. Para muchos casos, para poder resolver un problema práctico, se requiere plantear y dar respuesta a problemas de investigación.Estas dificultades para ampliacion del conocimiento, constituyen nuestro principal centro de atención. A diferencia de los problemas prácticos, los problemas de investigación son interrogantes sobre un aspecto no conocido de la realidad. En este sentido, lo desconocido se presenta como un problema para el científico, quien se plantea preguntas sobre aquello que no conoce y que deberá responder mediante una labor de investigación. Las respuestas que se obtengan constituyen la solución al problema.
+
+![](problemas.jpg){.lightbox width="200"}
 :::
 
 ## Comentarios
 
 ::: {style="text-align: justify; color:black;"}
 
-Para comenzar este tipo de cursos son muy buenos ya que nos muestran muchas herramientas desconocidas y que ayudar al fortalecimiento del aprendizaje, en lo personal me gusto mucho y aun que es una herramienta bastante intuitiva tiene una curva de aprendizaje que al principio cuesta me hubiese gustado que fuesen mas clases para reforzar muchos temas y aprendas mas herramientas para el uso en nuestros proyectos de investigación
+Para comenzar este tipo de cursos son muy buenos ya que nos muestran muchas herramientas desconocidas y que ayudar al fortalecimiento del aprendizaje, en lo personal me gusto mucho y aun que es una herramienta bastante intuitiva tiene una curva de aprendizaje que al principio cuesta me hubiese gustado que fuesen mas clases para reforzar muchos temas y aprender mas herramientas para el uso en nuestros proyectos de investigación, pero con lo aprendido se tiene la informacion basica para comenzar y empezar a invertigar que otro tipo de recursos podemos agregar para mejorar aun mas nuestros trabajos
 
+![](ciencia.jpg)
 :::
 
 :::
