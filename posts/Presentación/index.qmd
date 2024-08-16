@@ -35,7 +35,7 @@ title-slide-attributes:
 
 -   Cambio climatíco
 
-![](cambioclimatico.jpg){.lightbox width="200"}
+![](cambioclimatico.jpg){width="200"}
 
 ## Medidas para mitigar el calentamiento global
 
@@ -46,9 +46,9 @@ Medidas a nivel global para disminuir las emisiones de gases de efecto invernade
 Cambios en la fenología de las plantas
 
 ::: {#fig-calentamiento layout-ncol="2"}
-![Emisiones de CO2](CO2.jpg){#fig-CO2 .lightbox width="200"}
+![Emisiones de CO2](CO2.jpg){#fig-CO2 width="200"}
 
-![Especies invasoras](especiesinvasoras.jpg){#fig-Calentamiento .lightbox width="200"}
+![Especies invasoras](especiesinvasoras.jpg){#fig-Calentamiento width="200"}
 
 Efectos del calentamiento global
 :::
@@ -62,11 +62,11 @@ Efectos del calentamiento global
 -   Interacciones Ecologícas
 
 ::: {#fig-Fenoligía layout-ncol="3"}
-![Especies Invasoras](ludensM.jpg){#fig-A.ludens .lightbox width="200"}
+![Especies Invasoras](ludensM.jpg){#fig-A.ludens width="200"}
 
-![Especies Nativas](Ragopom.jpg){#fig-Ragholetis .lightbox width="200"}
+![Especies Nativas](Ragopom.jpg){#fig-Ragholetis width="200"}
 
-![Interacciones Ecologícas](LudensRa.jpg){#fig-Ludens-Ragholetis .lightbox width="200"}
+![Interacciones Ecologícas](LudensRa.jpg){#fig-Ludens-Ragholetis width="200"}
 
 Cambios en la fonología
 :::
@@ -80,9 +80,9 @@ Cambios en la fonología
 -   Chihuahua, Durango y Puebla los principales productores
 
 ::: {layout-ncol="2"}
-![Manzana Golden](golden.jpg){#fig-Golden .lightbox width="100"}
+![Manzana Golden](golden.jpg){#fig-Golden width="100"}
 
-![Manzana Rayada](rayada.jpg){#fig-Rayada .lightbox width="100"}
+![Manzana Rayada](rayada.jpg){#fig-Rayada width="100"}
 
 Cultivares de manzana
 :::
@@ -94,11 +94,11 @@ Cultivares de manzana
 -   Existen en México especies de importancia comercial
 
 ::: {#fig-tefrítidos layout-ncol="3"}
-![Tefrítidos](tefritido.png){#fig-tefrítido .lightbox width="200"}
+![Tefrítidos](tefritido.png){#fig-tefrítido width="200"}
 
-![anastrepha](anastrepha.jpg){#fig-anastrepha .lightbox width="200"}
+![anastrepha](anastrepha.jpg){#fig-anastrepha width="200"}
 
-![Importancia comercial](moscasnativas.jpg){#fig-importancia .lightbox width="600"}
+![Importancia comercial](moscasnativas.jpg){#fig-importancia width="600"}
 
 Especies de importancia comercial
 :::
@@ -111,22 +111,22 @@ Especies de importancia comercial
 
 -   Causante entre el 10 -25% daños en cultivos de frutas
 
-![](LudensM.jpg){.lightbox width="600"}
+![](LudensM.jpg){width="600"}
 
 ## Ciclo de Vida
 
-![](ciclomosca.jpg){.lightbox}
+![](ciclomosca.jpg)
 
 ## Hospederos
 
 ::: {#fig-Hospederos layout-ncol="4"}
-![Anacardiaceae-Mangifera indica](mango.jpg){#fig-Mangifera .lightbox width="200"}
+![Anacardiaceae-Mangifera indica](mango.jpg){#fig-Mangifera width="200"}
 
-![Rutaceae-Casimiroa edulis](zapoteblanco.jpg){#fig-Casimiroa .lightbox width="200"}
+![Rutaceae-Casimiroa edulis](zapoteblanco.jpg){#fig-Casimiroa width="200"}
 
-![Rutaceae-Citrus paradisi](toronja.jpg){#fig-Citrus .lightbox width="200"}
+![Rutaceae-Citrus paradisi](toronja.jpg){#fig-Citrus width="200"}
 
-![Rosaceae-Pronus persica](pera.jpg){#fig-Pronus .lightbox width="200"}
+![Rosaceae-Pronus persica](pera.jpg){#fig-Pronus width="200"}
 
 Hspederon de A. ludens
 :::
@@ -137,11 +137,11 @@ Hspederon de A. ludens
 -   Conocer los mecanismos moleculares que le permiten la adaptabilidad
 
 ::: {#fig-infestación layout-ncol="3"}
-![Infestación manzana](infgold2.jpg){#fig-Manzana .lightbox width="100"}
+![Infestación manzana](infgold2.jpg){#fig-Manzana width="100"}
 
-![Trampa](trampa.jpg){#fig-trampa .lightbox width="100"}
+![Trampa](trampa.jpg){#fig-trampa width="100"}
 
-![Manzana infestada](infes.jpg){#fig-manzana .lightbox width="200"}
+![Manzana infestada](infes.jpg){#fig-manzana width="200"}
 
 Infestación y trampeo en campo
 :::
