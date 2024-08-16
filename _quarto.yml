@@ -5,7 +5,7 @@ project:
 lang: es
 
 website:
-  title: "Cambio climatico, plagas y manzanas"
+  title: "Cambio climatico y sus efectos"
   navbar:
     right:
       - about.qmd
@@ -15,8 +15,8 @@ website:
         href: https://facebook.com
     format:
       html:
-        theme: cosmo
-        css: styles.css 
-        
+        css: styles.css
+        theme:
+  
 editor: visual
 

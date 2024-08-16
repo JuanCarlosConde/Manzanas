@@ -3,10 +3,9 @@
     "listing": "/index.html",
     "items": [
       "/posts/Presentación/index.html",
+      "/posts/manzana/index.html",
       "/posts/mosca/index.html",
-      "/posts/manzanas/index.html",
-      "/posts/manz/index.html",
-      "/posts/Reporte /index.html"
+      "/posts/manz/index.html"
     ]
   }
 ]
